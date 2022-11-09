@@ -1,0 +1,192 @@
+@font-face {
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 400;
+     src: local(''),
+          url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'),
+          url('../fonts/open-sans-v34-latin-regular.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 600;
+     src: local(''),
+          url('../fonts/open-sans-v34-latin-600.woff2') format('woff2'),
+          url('../fonts/open-sans-v34-latin-600.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 700;
+     src: local(''),
+          url('../fonts/open-sans-v34-latin-700.woff2') format('woff2'),
+          url('../fonts/open-sans-v34-latin-700.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Open Sans';
+     font-style: italic;
+     font-weight: 400;
+     src: local(''),
+          url('../fonts/open-sans-v34-latin-italic.woff2') format('woff2'),
+          url('../fonts/open-sans-v34-latin-italic.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Open Sans';
+     font-style: italic;
+     font-weight: 800;
+     src: local(''),
+          url('../fonts/open-sans-v34-latin-800italic.woff2') format('woff2'),
+          url('../fonts/open-sans-v34-latin-800italic.woff') format('woff');
+}
+
+/* Page */
+.page {
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+}
+
+.page__inner {
+     display: block;
+     width: 100%;
+}
+
+.page__inner_intro {
+     padding-top: 29px;
+}
+
+.page__inner_tone {
+     background-color: rgba(246, 242, 242, 1);
+}
+
+.page__inner_section {
+     padding: 102px 0 110px;
+}
+
+.page__header {
+     margin: 0 auto;
+}
+
+/* Header */
+.header {
+     display: flex;
+     justify-content: center;
+     width: 1249px;
+     min-height: 89px;
+     background-color: rgba(0, 0, 0, 80%);
+}
+
+.site-menu {
+     margin-left: -32px;
+}
+
+.site-menu__list {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+
+.site-menu__item {
+     display: flex;
+     min-height: 89px;
+}
+
+.site-menu__link {
+     display: flex;
+     align-items: center;
+     padding: 0 30px;
+     font-family: 'Open Sans';
+     font-size: 14px;
+     line-height: 1.71;
+     font-weight: 700;
+     text-transform: uppercase;
+     text-decoration: none;
+     color: rgba(224, 224, 224, 1);
+     padding-top: 39px;
+     padding-bottom: 26px;
+}
+
+.site-menu__link:hover {
+     background-color: rgba(255, 63, 64, 1);
+}
+
+.site-menu__link_active {
+     background-color: rgba(255, 63, 64, 1);
+}
+
+/* Main */
+/* Intro */
+.intro {
+     display: flex;
+     width: 1249px;
+     margin: 0 auto;
+     justify-content: space-between;
+
+}
+
+.intro__info {
+     max-width: 595px;
+}
+
+.intro__heading {
+     font-family: 'Open Sans';
+     font-size: 60px;
+     line-height: 1.2;
+     font-weight: 800;
+     letter-spacing: 1.5px;
+     text-transform: uppercase;
+     margin: 0;
+     margin-bottom: 19px;
+     color: rgba(0, 0, 0, 1);
+     margin-top: -15px;
+}
+
+.intro__span_word {
+     letter-spacing: 6px;
+}
+
+.intro__text {
+     font-family: 'Open Sans';
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.75;
+     margin: 0;
+     margin-bottom: 58px;
+     color: rgba(0, 0, 0, 1);
+}
+
+.action-link {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Open Sans';
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 1.89;
+     width: 227px;
+     min-height: 55px;
+     padding: 0.5em 1em;
+     box-sizing: border-box;
+     text-decoration: none;
+     border-radius: 5px;
+     box-shadow: 0 4px 4px rgba(0, 0, 0, 25%);
+}
+
+.action-link_tone {
+     background-color: rgba(255, 45, 45, 100%);
+     color: rgba(255, 255, 255, 1);
+}
+
+.intro__video {
+     width: 554px;
+     height: 359px;
+     object-fit: cover;
+     box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 29%);
+}
