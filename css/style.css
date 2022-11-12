@@ -184,9 +184,123 @@
      color: rgba(255, 255, 255, 1);
 }
 
+.action-link_tone-services {
+     background-color: rgba(0, 0, 0, 0.0001);
+     color: rgba(255, 45, 45, 100%);
+     border: 2px solid rgba(255, 0, 0, 1);
+
+}
+
 .intro__video {
      width: 554px;
      height: 359px;
      object-fit: cover;
      box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 29%);
+}
+
+/* Services */
+.services {
+     display: flex;
+     width: 1249px;
+     margin: 0 auto;
+     padding: 107px 0 90px;
+     justify-content: space-between;
+     border-bottom: 2px solid rgba(236, 236, 236, 1);
+}
+
+.services__info {
+     width: 539px;
+}
+
+.services__heading {
+     font-family: 'Open Sans';
+     font-size: 42px;
+     line-height: 1.31;
+     font-weight: 700;
+     letter-spacing: 0.4px;
+     color: rgba(0, 0, 0, 1);
+     text-transform: uppercase;
+     margin: 0;
+     margin-bottom: 50px;
+}
+
+.services__about {
+     font-family: 'Open Sans';
+     font-size: 16px;
+     line-height: 1.75;
+     font-weight: 400;
+     color: rgba(0, 0, 0, 1);
+     margin: 0;
+     margin-bottom: 64px;
+}
+
+.services__items {
+     display: flex;
+     flex-wrap: wrap;
+     width: 610px;
+     justify-content: end;
+     gap: 13px;
+}
+
+.services__item {
+     width: 285px;
+     margin-bottom: 53px;
+}
+
+.services__item_icon_manage::before {
+     content: '';
+     background-image: url('../img/Management.svg');
+     display: block;
+     width: 41px;
+     height: 41px;
+     background-repeat: no-repeat;
+     margin-bottom: 33px;
+}
+
+.services__item_icon_design::before {
+     content: '';
+     background-image: url('../img/UI.svg');
+     display: block;
+     width: 40px;
+     height: 40px;
+     background-repeat: no-repeat;
+     margin-bottom: 33px;
+}
+
+.services__item_icon_logo::before {
+     content: '';
+     background-image: url('../img/Logo.svg');
+     display: block;
+     width: 40px;
+     height: 40px;
+     background-repeat: no-repeat;
+     margin-bottom: 33px;
+}
+
+.services__item_icon_anime::before {
+     content: '';
+     background-image: url('../img/Animation.svg');
+     display: block;
+     width: 40px;
+     height: 40px;
+     background-repeat: no-repeat;
+     margin-bottom: 33px;
+}
+
+.services__title {
+     font-family: 'Open Sans';
+     font-size: 24px;
+     line-height: 1.2;
+     font-weight: 600;
+     margin: 0;
+     margin-bottom: 13px;
+     color: rgba(0, 0, 0, 1);
+}
+
+.services__text {
+     font-family: 'Open Sans';
+     font-size: 16px;
+     line-height: 1.75;
+     font-weight: 400;
+     color: rgba(0, 0, 0, 1);
 }
