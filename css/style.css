@@ -83,6 +83,8 @@
 
 .site-menu {
      margin-left: -32px;
+     padding: 0 385px;
+
 }
 
 .site-menu__list {
@@ -172,7 +174,7 @@
      line-height: 1.89;
      width: 227px;
      min-height: 55px;
-     padding: 0.5em 1em;
+     padding: 0.5em 2em;
      box-sizing: border-box;
      text-decoration: none;
      border-radius: 5px;
@@ -201,6 +203,7 @@
 /* Services */
 .services {
      display: flex;
+     align-items: flex-start;
      width: 1249px;
      margin: 0 auto;
      padding: 107px 0 90px;
@@ -209,7 +212,7 @@
 }
 
 .services__info {
-     width: 539px;
+     width: 50%;
 }
 
 .services__heading {
@@ -232,18 +235,20 @@
      color: rgba(0, 0, 0, 1);
      margin: 0;
      margin-bottom: 64px;
+     width: 539px;
+
 }
 
 .services__items {
      display: flex;
      flex-wrap: wrap;
-     width: 610px;
+     width: 50%;
      justify-content: end;
-     gap: 13px;
+     gap: 18px;
 }
 
 .services__item {
-     width: 285px;
+     width: 295px;
      margin-bottom: 53px;
 }
 
@@ -303,4 +308,96 @@
      line-height: 1.75;
      font-weight: 400;
      color: rgba(0, 0, 0, 1);
+}
+
+/* Features */
+.feature {
+     width: 1249px;
+     margin: 0 auto;
+     padding: 105px 0 68px;
+}
+
+.feature__header {
+     margin-bottom: 88px;
+     text-align: center;
+}
+
+.feature__heading {
+     font-family: 'Open Sans';
+     font-size: 42px;
+     line-height: 1.2;
+     font-weight: 700;
+     text-transform: uppercase;
+     letter-spacing: 0.38px;
+     color: rgba(0, 0, 0, 1);
+     margin: 0;
+     margin-bottom: 28px;
+
+}
+
+.feature__about {
+     width: 537px;
+     font-family: 'Open Sans';
+     font-size: 16px;
+     line-height: 1.75;
+     font-weight: 400;
+     color: rgba(0, 0, 0, 1);
+     margin: 0 auto;
+     margin-bottom: 34px;
+
+}
+
+.feature__line {
+     width: 130px;
+     height: 2px;
+     background-color: rgba(255, 45, 45, 1);
+     border: none;
+     margin: 0 auto;
+
+}
+
+.products {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 58px;
+}
+
+.products__list {
+     list-style: none;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 57px;
+     margin: 0;
+     padding: 0 160px;
+}
+
+.products__link {
+     font-family: 'Open Sans';
+     font-size: 22px;
+     line-height: 1.09;
+     font-weight: 600;
+     letter-spacing: 0.22px;
+     text-transform: uppercase;
+     color: rgba(0, 0, 0, 1);
+     text-decoration: none;
+}
+
+.products__link_tone {
+     color: rgba(255, 45, 45, 1);
+}
+
+.products__link:hover {
+     color: rgba(255, 45, 45, 1);
+}
+
+.feature__images {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+}
+
+.feature__image {
+     width: 297px;
+     object-fit: cover;
+     object-position: center;
 }
