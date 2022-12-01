@@ -232,7 +232,7 @@ button {
      background-color: var(--accent-color);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
      .popup-menu {
           display: none;
      }
