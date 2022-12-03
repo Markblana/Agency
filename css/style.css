@@ -74,8 +74,6 @@ button {
 
 .page__inner_section {
      padding: 0 1vw;
-     padding-top: 102px;
-     padding-bottom: 110px;
 }
 
 .page__inner_tone {
@@ -110,6 +108,7 @@ button {
 
 .site-menu {
      margin-left: -32px;
+     max-width: 500px;
 
 }
 
@@ -246,6 +245,8 @@ button {
      max-width: 1249px;
      margin: 0 auto;
      justify-content: space-between;
+     padding-top: 102px;
+     padding-bottom: 110px;
 }
 
 @media screen and (min-width: 800px) and (max-width: 1240px) {
@@ -508,7 +509,8 @@ button {
      color: rgba(0, 0, 0, 1);
      margin: 0;
      margin-bottom: 28px;
-     padding: 0 320px;
+     max-width: 453px;
+     display: inline-block;
 
 }
 
@@ -647,7 +649,7 @@ button {
      grid-template-columns: repeat(2, auto);
      grid-template-rows: repeat(2, auto);
      justify-content: space-between;
-     align-items: end;
+     align-items: flex-start;
      column-gap: 2vw;
 }
 
@@ -826,12 +828,8 @@ button {
      color: rgba(255, 255, 255, 1);
      margin: 0;
      margin-bottom: 17px;
-}
-
-@media screen and (max-width: 864px) {
-     .subscribe__heading {
-          text-align: center;
-     }
+     max-width: 1129px;
+     text-align: center;
 }
 
 .subscribe__about {
@@ -842,6 +840,8 @@ button {
      color: rgba(255, 255, 255, 1);
      margin: 0;
      margin-bottom: 59px;
+     text-align: center;
+     max-width: 574px;
 }
 
 .subscribe__form {
@@ -893,6 +893,7 @@ button {
 .feedback {
      max-width: 100%;
      margin: 0 auto;
+     padding: 0 1vw;
      padding-top: 53px;
      padding-bottom: 107px;
 
@@ -902,7 +903,6 @@ button {
      max-width: 1249px;
      margin: 0 auto;
      margin-bottom: 74px;
-     padding: 0 1vw;
 }
 
 .feedback__wrapper {
@@ -936,12 +936,7 @@ button {
      display: grid;
      grid-template-columns: 1fr 731px minmax(auto, 107px) 411px 1fr;
      grid-template-rows: auto;
-}
 
-@media screen and (max-width: 1010px) {
-     .feedback__info {
-          padding: 0 1vw;
-     }
 }
 
 .feedback__info::after {
@@ -1047,6 +1042,7 @@ button {
 
 .contacts__address {
      font-family: 'Open Sans', sans-serif;
+     font-style: normal;
      font-size: 16px;
      line-height: 1.75;
      font-weight: 400;
@@ -1143,6 +1139,7 @@ button {
      display: flex;
      gap: 18px;
      padding: 47px 0 31px;
+     flex-wrap: wrap;
 }
 
 /* JS */
